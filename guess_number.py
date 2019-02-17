@@ -1,6 +1,13 @@
 import random
 
-r = random.randint(1, 100)
+start_num = input('Please enter a start number: ')
+end_num = input('Please enter an end number: ')
+
+start_num = int(start_num)
+end_num = int(end_num)
+
+
+r = random.randint(start_num, end_num)
 
 count_attempt = 0
 
